@@ -1,0 +1,244 @@
+command_id: 7C0.221022
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7C8056210220639
+  expected_values:
+    TOYOTA_FLV: 15.93
+- response: 7C8056210220816
+  expected_values:
+    TOYOTA_FLV: 20.7
+- response: 7C8056210220838
+  expected_values:
+    TOYOTA_FLV: 21.04
+- response: 7C8056210220842
+  expected_values:
+    TOYOTA_FLV: 21.14
+- response: 7C805621022085B
+  expected_values:
+    TOYOTA_FLV: 21.39
+- response: 7C8056210220892
+  expected_values:
+    TOYOTA_FLV: 21.94
+- response: 7C805621022089D
+  expected_values:
+    TOYOTA_FLV: 22.05
+- response: 7C805621022091A
+  expected_values:
+    TOYOTA_FLV: 23.3
+- response: 7C805621022091D
+  expected_values:
+    TOYOTA_FLV: 23.33
+- response: 7C8056210220924
+  expected_values:
+    TOYOTA_FLV: 23.4
+- response: 7C805621022092F
+  expected_values:
+    TOYOTA_FLV: 23.51
+- response: 7C8056210220933
+  expected_values:
+    TOYOTA_FLV: 23.55
+- response: 7C805621022093B
+  expected_values:
+    TOYOTA_FLV: 23.63
+- response: 7C805621022093C
+  expected_values:
+    TOYOTA_FLV: 23.64
+- response: 7C805621022093E
+  expected_values:
+    TOYOTA_FLV: 23.66
+- response: 7C8056210220956
+  expected_values:
+    TOYOTA_FLV: 23.9
+- response: 7C8056210220958
+  expected_values:
+    TOYOTA_FLV: 23.92
+- response: 7C8056210220967
+  expected_values:
+    TOYOTA_FLV: 24.07
+- response: 7C805621022097E
+  expected_values:
+    TOYOTA_FLV: 24.3
+- response: 7C805621022097F
+  expected_values:
+    TOYOTA_FLV: 24.31
+- response: 7C8056210220987
+  expected_values:
+    TOYOTA_FLV: 24.39
+- response: 7C805621022098B
+  expected_values:
+    TOYOTA_FLV: 24.43
+- response: 7C805621022098C
+  expected_values:
+    TOYOTA_FLV: 24.44
+- response: 7C805621022098F
+  expected_values:
+    TOYOTA_FLV: 24.47
+- response: 7C8056210220991
+  expected_values:
+    TOYOTA_FLV: 24.49
+- response: 7C8056210220997
+  expected_values:
+    TOYOTA_FLV: 24.55
+- response: 7C80562102209DB
+  expected_values:
+    TOYOTA_FLV: 25.23
+- response: 7C80562102209E1
+  expected_values:
+    TOYOTA_FLV: 25.29
+- response: 7C8056210220A0F
+  expected_values:
+    TOYOTA_FLV: 25.75
+- response: 7C8056210220A1E
+  expected_values:
+    TOYOTA_FLV: 25.9
+- response: 7C8056210220A55
+  expected_values:
+    TOYOTA_FLV: 26.45
+- response: 7C8056210220A78
+  expected_values:
+    TOYOTA_FLV: 26.8
+- response: 7C8056210220A7C
+  expected_values:
+    TOYOTA_FLV: 26.84
+- response: 7C8056210220AB2
+  expected_values:
+    TOYOTA_FLV: 27.38
+- response: 7C8056210220AB5
+  expected_values:
+    TOYOTA_FLV: 27.41
+- response: 7C8056210220AB7
+  expected_values:
+    TOYOTA_FLV: 27.43
+- response: 7C8056210220AB8
+  expected_values:
+    TOYOTA_FLV: 27.44
+- response: 7C8056210220AB9
+  expected_values:
+    TOYOTA_FLV: 27.45
+- response: 7C8056210220ABA
+  expected_values:
+    TOYOTA_FLV: 27.46
+- response: 7C8056210220ABB
+  expected_values:
+    TOYOTA_FLV: 27.47
+- response: 7C8056210220ABC
+  expected_values:
+    TOYOTA_FLV: 27.48
+- response: 7C8056210220ABE
+  expected_values:
+    TOYOTA_FLV: 27.5
+- response: 7C8056210220ABF
+  expected_values:
+    TOYOTA_FLV: 27.51
+- response: 7C8056210220ACA
+  expected_values:
+    TOYOTA_FLV: 27.62
+- response: 7C8056210220ACB
+  expected_values:
+    TOYOTA_FLV: 27.63
+- response: 7C8056210220ACC
+  expected_values:
+    TOYOTA_FLV: 27.64
+- response: 7C8056210220ACD
+  expected_values:
+    TOYOTA_FLV: 27.65
+- response: 7C8056210220ADC
+  expected_values:
+    TOYOTA_FLV: 27.8
+- response: 7C8056210220AE6
+  expected_values:
+    TOYOTA_FLV: 27.9
+- response: 7C8056210220AFA
+  expected_values:
+    TOYOTA_FLV: 28.1
+- response: 7C8056210220AFC
+  expected_values:
+    TOYOTA_FLV: 28.12
+- response: 7C8056210220B06
+  expected_values:
+    TOYOTA_FLV: 28.22
+- response: 7C8056210220B07
+  expected_values:
+    TOYOTA_FLV: 28.23
+- response: 7C8056210220B13
+  expected_values:
+    TOYOTA_FLV: 28.35
+- response: 7C8056210220B19
+  expected_values:
+    TOYOTA_FLV: 28.41
+- response: 7C8056210220B27
+  expected_values:
+    TOYOTA_FLV: 28.55
+- response: 7C8056210220B30
+  expected_values:
+    TOYOTA_FLV: 28.64
+- response: 7C8056210220B3D
+  expected_values:
+    TOYOTA_FLV: 28.77
+- response: 7C8056210220B3E
+  expected_values:
+    TOYOTA_FLV: 28.78
+- response: 7C8056210220B3F
+  expected_values:
+    TOYOTA_FLV: 28.79
+- response: 7C8056210220B41
+  expected_values:
+    TOYOTA_FLV: 28.81
+- response: 7C8056210220B47
+  expected_values:
+    TOYOTA_FLV: 28.87
+- response: 7C8056210220B4E
+  expected_values:
+    TOYOTA_FLV: 28.94
+- response: 7C8056210220B4F
+  expected_values:
+    TOYOTA_FLV: 28.95
+- response: 7C8056210220B6A
+  expected_values:
+    TOYOTA_FLV: 29.22
+- response: 7C8056210220B8B
+  expected_values:
+    TOYOTA_FLV: 29.55
+- response: 7C8056210220B99
+  expected_values:
+    TOYOTA_FLV: 29.69
+- response: 7C8056210220BB9
+  expected_values:
+    TOYOTA_FLV: 30.01
+- response: 7C8056210220BEA
+  expected_values:
+    TOYOTA_FLV: 30.5
+- response: 7C8056210220C24
+  expected_values:
+    TOYOTA_FLV: 31.08
+- response: 7C8056210220DD5
+  expected_values:
+    TOYOTA_FLV: 35.41
+- response: 7C8056210221A54
+  expected_values:
+    TOYOTA_FLV: 67.4
+- response: 7C8056210221A5F
+  expected_values:
+    TOYOTA_FLV: 67.51
+- response: 7C8056210221A60
+  expected_values:
+    TOYOTA_FLV: 67.52
+- response: 7C8056210221A61
+  expected_values:
+    TOYOTA_FLV: 67.53
+- response: 7C8056210221A63
+  expected_values:
+    TOYOTA_FLV: 67.55
+- response: 7C8056210221A64
+  expected_values:
+    TOYOTA_FLV: 67.56
+- response: 7C8056210221A65
+  expected_values:
+    TOYOTA_FLV: 67.57
+- response: 7C8056210221A66
+  expected_values:
+    TOYOTA_FLV: 67.58
+- response: 7C8056210221A68
+  expected_values:
+    TOYOTA_FLV: 67.6
