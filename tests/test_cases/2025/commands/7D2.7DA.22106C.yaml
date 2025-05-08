@@ -2,14 +2,10 @@ command_id: 7D2.7DA.22106C
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7DA0662106C79796E
+- response: 7DA0662106C51524E
   expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 60.5
-    TOYOTA_HVBAT_SOC_MIN: 55
-- response: 7DA0662106C797D67
-  expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 62.5
-    TOYOTA_HVBAT_SOC_MIN: 51.5
+    TOYOTA_HVBAT_SOC_MAX: 41
+    TOYOTA_HVBAT_SOC_MIN: 39
 - response: 7DA0662106C83887C
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 68
