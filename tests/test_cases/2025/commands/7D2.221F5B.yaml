@@ -6,7 +6,7 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC: 40
     TOYOTA_SOC: 40
-- response: 7DA04621F5BAF
+- response: 7DA04621F5BB3
   expected_values:
-    TOYOTA_HVBAT_SOC: 68.62745
-    TOYOTA_SOC: 68.62745
+    TOYOTA_HVBAT_SOC: 70.19608
+    TOYOTA_SOC: 70.19608
