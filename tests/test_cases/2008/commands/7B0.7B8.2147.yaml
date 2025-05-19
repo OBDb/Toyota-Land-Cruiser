@@ -1,0 +1,34 @@
+command_id: 7B0.7B8.2147
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B80761470000807FE9
+  expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: -2.3
+    TOYOTA_YAW_RATE: 0
+- response: 7B80761470000808009
+  expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: 0.9
+    TOYOTA_YAW_RATE: 0
+- response: 7B80761470003808007
+  expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0.06
+    TOYOTA_STEER_ANGLE: 0.7
+    TOYOTA_YAW_RATE: 0
+- response: 7B807614700FF807F8D
+  expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: -0.02
+    TOYOTA_STEER_ANGLE: -11.5
+    TOYOTA_YAW_RATE: 0
+- response: 7B807614700FF808003
+  expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: -0.02
+    TOYOTA_STEER_ANGLE: 0.3
+    TOYOTA_YAW_RATE: 0

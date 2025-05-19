@@ -4,7 +4,7 @@ extended_addressing_enabled: false
 test_cases:
 - response: '709056216273300'
   expected_values:
-    TOYOTA_TF1_PAN: 51.8
-- response: 709056216277D00
+    TOYOTA_TF1_PAN_V2: 51.8
+- response: '709056216278200'
   expected_values:
-    TOYOTA_TF1_PAN: 185
+    TOYOTA_TF1_PAN_V2: 194

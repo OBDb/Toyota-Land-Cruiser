@@ -4,10 +4,10 @@ extended_addressing_enabled: false
 test_cases:
 - response: 70907620103010003A1
   expected_values:
-    TOYOTA_ODO_V3: 929
-- response: 70907620103010003DF
+    TOYOTA_ODO_V5: 929
+- response: 70907620103010004FF
   expected_values:
-    TOYOTA_ODO_V3: 991
-- response: '7090762010301000439'
+    TOYOTA_ODO_V5: 1279
+- response: '7090762010301000500'
   expected_values:
-    TOYOTA_ODO_V3: 1081
+    TOYOTA_ODO_V5: 1280
