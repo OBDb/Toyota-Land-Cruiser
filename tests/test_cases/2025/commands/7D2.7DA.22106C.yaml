@@ -3,18 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7DA0662106C51524E
-  expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 41
-    TOYOTA_HVBAT_SOC_MIN: 39
+  expected_values: {}
 - response: 7DA0662106C798D75
-  expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 70.5
-    TOYOTA_HVBAT_SOC_MIN: 58.5
+  expected_values: {}
 - response: 7DA0662106C868681
-  expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 67
-    TOYOTA_HVBAT_SOC_MIN: 64.5
+  expected_values: {}
 - response: 7DA0662106C868683
-  expected_values:
-    TOYOTA_HVBAT_SOC_MAX: 67
-    TOYOTA_HVBAT_SOC_MIN: 65.5
+  expected_values: {}

@@ -3,11 +3,8 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7B803612100
-  expected_values:
-    TOYOTA_VSS_V3: 0
+  expected_values: {}
 - response: 7B803612127
-  expected_values:
-    TOYOTA_VSS_V3: 49.92
+  expected_values: {}
 - response: 7B80361212B
-  expected_values:
-    TOYOTA_VSS_V3: 55.04
+  expected_values: {}

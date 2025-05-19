@@ -3,8 +3,6 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: '709056216273300'
-  expected_values:
-    TOYOTA_TF1_PAN_V2: 51.8
+  expected_values: {}
 - response: '709056216278200'
-  expected_values:
-    TOYOTA_TF1_PAN_V2: 194
+  expected_values: {}

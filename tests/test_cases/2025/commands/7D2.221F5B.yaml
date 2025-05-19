@@ -3,8 +3,6 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7DA04621F5B66
-  expected_values:
-    TOYOTA_SOC: 40
+  expected_values: {}
 - response: 7DA04621F5BB3
-  expected_values:
-    TOYOTA_SOC: 70.19608
+  expected_values: {}

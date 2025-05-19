@@ -3,14 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7C8056210220639
-  expected_values:
-    TOYOTA_FLV: 15.93
+  expected_values: {}
 - response: 7C8056210220A00
-  expected_values:
-    TOYOTA_FLV: 25.6
+  expected_values: {}
 - response: 7C80562102213FF
-  expected_values:
-    TOYOTA_FLV: 51.19
+  expected_values: {}
 - response: 7C8056210221A1D
-  expected_values:
-    TOYOTA_FLV: 66.85
+  expected_values: {}

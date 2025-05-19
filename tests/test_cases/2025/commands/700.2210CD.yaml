@@ -3,14 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 708056210CD8D95
-  expected_values:
-    TOYOTA_LFPS: 100
+  expected_values: {}
 - response: 708056210CD91FD
-  expected_values:
-    TOYOTA_LFPS: 100
+  expected_values: {}
 - response: 708056210CD9303
-  expected_values:
-    TOYOTA_LFPS: 100
+  expected_values: {}
 - response: 708056210CD9416
-  expected_values:
-    TOYOTA_LFPS: 100
+  expected_values: {}

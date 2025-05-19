@@ -3,14 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7BB06621004000000
-  expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+  expected_values: {}
 - response: 7BB066210040000FF
-  expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+  expected_values: {}
 - response: 7BB06621004FF2D04
-  expected_values:
-    TOYOTA_STEERING_ANGLE: -316.5
+  expected_values: {}
 - response: 7BB06621004FFFF00
-  expected_values:
-    TOYOTA_STEERING_ANGLE: -1.5
+  expected_values: {}

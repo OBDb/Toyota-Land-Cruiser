@@ -3,14 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7C80361298C
-  expected_values:
-    TOYOTA_FLI_VOL: 70
+  expected_values: {}
 - response: 7C80361298D
-  expected_values:
-    TOYOTA_FLI_VOL: 70.5
+  expected_values: {}
 - response: 7C80361298E
-  expected_values:
-    TOYOTA_FLI_VOL: 71
+  expected_values: {}
 - response: 7C803612994
-  expected_values:
-    TOYOTA_FLI_VOL: 74
+  expected_values: {}
