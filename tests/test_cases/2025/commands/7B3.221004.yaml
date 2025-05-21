@@ -5,8 +5,16 @@ test_cases:
 - response: 7BB06621004000000
   expected_values: {}
 - response: 7BB066210040000FF
+<<<<<<< Updated upstream
   expected_values: {}
 - response: 7BB06621004FF2D04
   expected_values: {}
+=======
+  expected_values:
+    TOYOTA_STEERING_ANGLE: 0
+- response: 7BB06621004FF0C00
+  expected_values:
+    TOYOTA_STEERING_ANGLE: -366
+>>>>>>> Stashed changes
 - response: 7BB06621004FFFF00
   expected_values: {}

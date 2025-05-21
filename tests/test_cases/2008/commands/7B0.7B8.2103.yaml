@@ -3,6 +3,7 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7B80761030000000000
+<<<<<<< Updated upstream
   expected_values: {}
 - response: 7B80761032626262600
   expected_values: {}
@@ -10,3 +11,28 @@ test_cases:
   expected_values: {}
 - response: 7B80761032B2B2B2B00
   expected_values: {}
+=======
+  expected_values:
+    TOYOTA_TIRE_FL_SPD: 0
+    TOYOTA_TIRE_FR_SPD: 0
+    TOYOTA_TIRE_RL_SPD: 0
+    TOYOTA_TIRE_RR_SPD: 0
+- response: 7B80761032626262600
+  expected_values:
+    TOYOTA_TIRE_FL_SPD: 48.64
+    TOYOTA_TIRE_FR_SPD: 48.64
+    TOYOTA_TIRE_RL_SPD: 48.64
+    TOYOTA_TIRE_RR_SPD: 48.64
+- response: 7B80761032726272600
+  expected_values:
+    TOYOTA_TIRE_FL_SPD: 48.64
+    TOYOTA_TIRE_FR_SPD: 49.92
+    TOYOTA_TIRE_RL_SPD: 48.64
+    TOYOTA_TIRE_RR_SPD: 49.92
+- response: 7B80761032B2B2B2B00
+  expected_values:
+    TOYOTA_TIRE_FL_SPD: 55.04
+    TOYOTA_TIRE_FR_SPD: 55.04
+    TOYOTA_TIRE_RL_SPD: 55.04
+    TOYOTA_TIRE_RR_SPD: 55.04
+>>>>>>> Stashed changes

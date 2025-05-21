@@ -2,7 +2,13 @@ command_id: 7B0.221006
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+<<<<<<< Updated upstream
 - response: 7B8056210065E00
   expected_values: {}
+=======
+- response: 7B8056210065600
+  expected_values:
+    TOYOTA_MASTER_CYL_TEMP: 6
+>>>>>>> Stashed changes
 - response: 7B8056210067200
   expected_values: {}

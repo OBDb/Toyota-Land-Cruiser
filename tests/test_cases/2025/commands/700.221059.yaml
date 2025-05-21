@@ -7,6 +7,7 @@ test_cases:
     7082152000000000000
   expected_values: {}
 - response: |-
+<<<<<<< Updated upstream
     708100A621059325B2A
     7082152032100000000
   expected_values: {}
@@ -14,6 +15,12 @@ test_cases:
     708100A621059335C2A
     708215303A800000000
   expected_values: {}
+=======
+    708100A62105929522A
+    7082152000000000000
+  expected_values:
+    TOYOTA_ACCEL_PEDAL: 0
+>>>>>>> Stashed changes
 - response: |-
     708100A6210593A6329
     708215207CF00000000
@@ -22,6 +29,16 @@ test_cases:
     708100A621059497229
     70821520FE800000000
   expected_values: {}
+- response: |-
+    708100A6210594B742A
+    7082153104500000000
+  expected_values:
+    TOYOTA_ACCEL_PEDAL: 11.8169
+- response: |-
+    708100A621059567E2A
+    7082153160C00000000
+  expected_values:
+    TOYOTA_ACCEL_PEDAL: 19.56338
 - response: |-
     708100A621059567F29
     708215216F800000000

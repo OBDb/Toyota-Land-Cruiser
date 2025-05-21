@@ -7,6 +7,14 @@ test_cases:
 - response: 7C8056210220A00
   expected_values: {}
 - response: 7C80562102213FF
+<<<<<<< Updated upstream
   expected_values: {}
 - response: 7C8056210221A1D
   expected_values: {}
+=======
+  expected_values:
+    TOYOTA_FLV: 51.19
+- response: 7C8056210221A09
+  expected_values:
+    TOYOTA_FLV: 66.65
+>>>>>>> Stashed changes
