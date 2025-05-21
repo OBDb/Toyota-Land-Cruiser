@@ -1,8 +1,0 @@
-command_id: 7C0.221021
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
-test_cases:
-- response: 7C80462102100
-  expected_values: {}
-- response: 7C80462102190
-  expected_values: {}
