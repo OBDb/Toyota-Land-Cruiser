@@ -1,0 +1,60 @@
+command_id: '750.221004'
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    7582A10086210040037
+    7582A21000000000000
+  expected_values:
+    LANDCRUISER_TT_2: 15
+- response: |-
+    7582A10086210043400
+    7582A21000000000000
+  expected_values:
+    LANDCRUISER_TT_1: 12
+- response: |-
+    7582A10086210043400
+    7582A21350000000000
+  expected_values:
+    LANDCRUISER_TT_1: 12
+    LANDCRUISER_TT_3: 13
+- response: |-
+    7582A10086210043837
+    7582A21393933000000
+  expected_values:
+    LANDCRUISER_TT_1: 16
+    LANDCRUISER_TT_2: 15
+    LANDCRUISER_TT_3: 17
+    LANDCRUISER_TT_4: 17
+- response: |-
+    7582A10086210043938
+    7582A21393A33000000
+  expected_values:
+    LANDCRUISER_TT_1: 17
+    LANDCRUISER_TT_2: 16
+    LANDCRUISER_TT_3: 17
+    LANDCRUISER_TT_4: 18
+- response: |-
+    7582A10086210043938
+    7582A213A3A33000000
+  expected_values:
+    LANDCRUISER_TT_1: 17
+    LANDCRUISER_TT_2: 16
+    LANDCRUISER_TT_3: 18
+    LANDCRUISER_TT_4: 18
+- response: |-
+    7582A10086210043939
+    7582A213A3A33000000
+  expected_values:
+    LANDCRUISER_TT_1: 17
+    LANDCRUISER_TT_2: 17
+    LANDCRUISER_TT_3: 18
+    LANDCRUISER_TT_4: 18
+- response: |-
+    7582A10086210043A39
+    7582A213A3A33000000
+  expected_values:
+    LANDCRUISER_TT_1: 18
+    LANDCRUISER_TT_2: 17
+    LANDCRUISER_TT_3: 18
+    LANDCRUISER_TT_4: 18

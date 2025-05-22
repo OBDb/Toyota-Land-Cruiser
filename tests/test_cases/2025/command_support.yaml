@@ -1,6 +1,6 @@
 model_year: 2025
 can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+extended_addressing_enabled: true
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -164,9 +164,6 @@ unsupported_commands_by_ecu:
   750:
   - '750.2115'
   - '750.2116'
-  - '750.221004'
-  - '750.221005'
-  - '750.222021'
   - 750.758.2130
   - 750.758.221004
   - 750.758.221005
@@ -182,12 +179,64 @@ unsupported_commands_by_ecu:
   - 7B3.221004
   7C0:
   - 7C0.221021
+  - 7C0.221022
   - 7C0.7C8.2129
   7D0:
   - 7D0.2162
   7D2:
+  - 7D2.221F5B
   - 7D2.7DA.22106C
   - 7D2.7DA.221F0D
+  7DF:
+  - 7DF.0101
+  - 7DF.0103
+  - 7DF.0104
+  - 7DF.0105
+  - 7DF.0106
+  - 7DF.0107
+  - 7DF.010C
+  - 7DF.010D
+  - 7DF.010E
+  - 7DF.010F
+  - 7DF.0110
+  - 7DF.0111
+  - 7DF.0113
+  - 7DF.011C
+  - 7DF.011F
+  - 7DF.0121
+  - 7DF.012E
+  - 7DF.0130
+  - 7DF.0131
+  - 7DF.0133
+  - 7DF.013C
+  - 7DF.013E
+  - 7DF.0141
+  - 7DF.0142
+  - 7DF.0143
+  - 7DF.0144
+  - 7DF.0145
+  - 7DF.0146
+  - 7DF.0147
+  - 7DF.0149
+  - 7DF.014A
+  - 7DF.014C
+  - 7DF.014D
+  - 7DF.014E
+  - 7DF.0151
+  - 7DF.0153
+  - 7DF.0155
+  - 7DF.0156
+  - 7DF.015B
+  - 7DF.015C
+  - 7DF.015E
+  - 7DF.0162
+  - 7DF.0163
+  - 7DF.0165
+  - 7DF.0167
+  - 7DF.018E
+  - 7DF.019D
+  - 7DF.019E
+  - 7DF.01A6
   7E0:
   - 7E0.0105:ECT
   - 7E0.010D:VSS
@@ -294,6 +343,7 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.0104
   - 7E5.7ED.0105
   - 7E5.7ED.010C
+  - 7E5.7ED.010D
   - 7E5.7ED.0111
   - 7E5.7ED.011F
   - 7E5.7ED.0121
