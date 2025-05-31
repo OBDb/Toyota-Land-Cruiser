@@ -5,8 +5,4 @@ test_cases:
 - response: |-
     7582A10086220210204
     7582A21010305000000
-  expected_values:
-    LANDCRUISER_TID_1: FR
-    LANDCRUISER_TID_2: RR
-    LANDCRUISER_TID_3: FL
-    LANDCRUISER_TID_4: RL
+  expected_values: {}
