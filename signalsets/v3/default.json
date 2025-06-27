@@ -124,16 +124,18 @@
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "LANDCRUISER_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front right tire temperature"},
-    {"id": "LANDCRUISER_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "LANDCRUISER_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
-    {"id": "LANDCRUISER_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"}
+    {"id": "LANDCRUISER_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "LANDCRUISER_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front left tire temperature"},
+    {"id": "LANDCRUISER_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"},
+    {"id": "LANDCRUISER_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LANDCRUISER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "LANDCRUISER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "LANDCRUISER_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "LANDCRUISER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "LANDCRUISER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "LANDCRUISER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "LANDCRUISER_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "LANDCRUISER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "LANDCRUISER_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -184,9 +186,9 @@
     {"id": "LANDCRUISER_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/se"},
     {"id": "LANDCRUISER_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7C0", "dbg": true, "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2019 },
+{ "hdr": "7C0", "fcm1": true, "dbg": true, "cmd": {"22": "1022"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
+    {"id": "LANDCRUISER_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7D2", "fcm1": true, "dbg": true, "cmd": {"22": "106C"}, "freq": 5,
   "signals": [
