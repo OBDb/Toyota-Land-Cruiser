@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2128|f=2019-
+test_cases:
+- expected_values:
+    LANDCRUISER_ODO_V7: 8142179
+  response: 7E80661287C3D639F
+- expected_values:
+    LANDCRUISER_ODO_V7: 8340327
+  response: 7E80661287F436773
+- expected_values:
+    LANDCRUISER_ODO_V7: 8440170
+  response: 7E806612880C96A4D
+- expected_values:
+    LANDCRUISER_ODO_V7: 8441961
+  response: 7E806612880D0692B
+- expected_values:
+    LANDCRUISER_ODO_V7: 8508779
+  response: 7E806612881D56BFB
