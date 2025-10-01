@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    LANDCRUISER_GEAR_LOCKUP: 0
+    LANDCRUISER_GEAR_V2: 1
+  response: '7E8056185010010'
+- expected_values:
+    LANDCRUISER_GEAR_LOCKUP: 0
+    LANDCRUISER_GEAR_V2: 3
+  response: '7E8056185032010'

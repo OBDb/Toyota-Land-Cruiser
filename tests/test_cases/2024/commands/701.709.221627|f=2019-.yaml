@@ -1,0 +1,8 @@
+command_id: 701.709.221627|f=2019-
+test_cases:
+- expected_values:
+    LANDCRUISER_TF1_PAN: 105.8
+  response: '709056216275100'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 212
+  response: 709056216278C00

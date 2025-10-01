@@ -1,0 +1,8 @@
+command_id: 7B0.2121
+test_cases:
+- expected_values:
+    LANDCRUISER_VSS_V3: 115.2
+  response: 7B80361215A
+- expected_values:
+    LANDCRUISER_VSS_V3: 116.48
+  response: 7B80361215B
