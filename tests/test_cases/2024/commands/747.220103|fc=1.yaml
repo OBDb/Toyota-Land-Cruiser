@@ -1,0 +1,11 @@
+command_id: 747.220103|fc=1
+test_cases:
+- expected_values:
+    LANDCRUISER_ODO_V6: 4766
+  response: 709076201030200129E
+- expected_values:
+    LANDCRUISER_ODO_V6: 4829
+  response: 70907620103020012DD
+- expected_values:
+    LANDCRUISER_ODO_V6: 22382
+  response: 709076201030200576E
