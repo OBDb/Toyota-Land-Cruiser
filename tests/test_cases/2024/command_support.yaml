@@ -1,8 +1,8 @@
 model_year: 2024
 supported_commands_by_ecu:
   "701":
-  - 701.220103:LANDCRUISER_ODO_V5
   - '701.221627'
+  - 701.709.220103:LANDCRUISER_ODO_V5
   "7D2":
   - 7D2.22106C
   - 7D2.221F0D
