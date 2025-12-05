@@ -6,6 +6,13 @@ test_cases:
     7582A10086210040037
     7582A21000000000000
 - expected_values:
+    LANDCRUISER_TT_1: 7
+    LANDCRUISER_TT_2: 7
+    LANDCRUISER_TT_3: 8
+  response: |-
+    7582A10086210042F2F
+    7582A21302F2F000000
+- expected_values:
     LANDCRUISER_TT_1: 12
   response: |-
     7582A10086210043400
@@ -31,13 +38,6 @@ test_cases:
   response: |-
     7582A10086210044040
     7582A2140403B000000
-- expected_values:
-    LANDCRUISER_TT_1: 28
-    LANDCRUISER_TT_2: 27
-    LANDCRUISER_TT_3: 24
-  response: |-
-    7582A10086210044443
-    7582A2140403E000000
 - expected_values:
     LANDCRUISER_TT_1: 28
     LANDCRUISER_TT_2: 28
