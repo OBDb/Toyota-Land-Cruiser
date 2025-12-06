@@ -26,5 +26,5 @@ test_cases:
   response: '7E806618278008660'
 - expected_values:
     LANDCRUISER_ATF_PAN_T: 81.25
-    LANDCRUISER_ATF_TQC_T: 90
-  response: '7E806618279408200'
+    LANDCRUISER_ATF_TQC_T: 88.75
+  response: 7E8066182794080C0
