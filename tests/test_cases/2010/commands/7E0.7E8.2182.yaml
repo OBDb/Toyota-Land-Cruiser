@@ -1,0 +1,30 @@
+command_id: 7E0.7E8.2182
+test_cases:
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 67.5
+    LANDCRUISER_ATF_TQC_T: 68.125
+  response: 7E80661826B806C20
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 68.125
+    LANDCRUISER_ATF_TQC_T: 76.875
+  response: 7E80661826C2074E0
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 70
+    LANDCRUISER_ATF_TQC_T: 78.75
+  response: 7E80661826E0076C0
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 76.875
+    LANDCRUISER_ATF_TQC_T: 76.875
+  response: 7E806618274E074E0
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 78.125
+    LANDCRUISER_ATF_TQC_T: 80
+  response: '7E806618276207800'
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 80
+    LANDCRUISER_ATF_TQC_T: 94.375
+  response: '7E806618278008660'
+- expected_values:
+    LANDCRUISER_ATF_PAN_T: 81.25
+    LANDCRUISER_ATF_TQC_T: 90
+  response: '7E806618279408200'
