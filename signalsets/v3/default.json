@@ -199,7 +199,7 @@
   "signals": [
     {"id": "LANDCRUISER_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "21"}, "freq": 5, "filter": { "to": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 5, "filter": { "to": 2019 }, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2013, 2014, 2015], "from": 2017 },
   "signals": [
     {"id": "LANDCRUISER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
