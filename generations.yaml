@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+
 generations:
   - name: "FJ40 Series"
     start_year: 1960
