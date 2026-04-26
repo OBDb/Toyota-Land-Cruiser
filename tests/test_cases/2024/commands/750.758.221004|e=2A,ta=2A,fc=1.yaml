@@ -1,0 +1,11 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    LANDCRUISER_TT_1: 33
+    LANDCRUISER_TT_2: 32
+    LANDCRUISER_TT_3: 32
+    LANDCRUISER_TT_4: 32
+    LANDCRUISER_TT_5: 33
+  response: |-
+    7582A10086210044948
+    7582A21484849000000
