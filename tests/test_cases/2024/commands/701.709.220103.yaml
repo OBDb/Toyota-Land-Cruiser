@@ -1,6 +1,9 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
+    LANDCRUISER_ODO_V5: 25753
+  response: '7090762010301006499'
+- expected_values:
     LANDCRUISER_ODO_V5: 4766
   response: 709076201030200129E
 - expected_values:
