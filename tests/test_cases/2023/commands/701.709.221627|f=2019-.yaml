@@ -1,0 +1,23 @@
+command_id: 701.709.221627|f=2019-
+test_cases:
+- expected_values:
+    LANDCRUISER_TF1_PAN: 131
+  response: 709056216275F00
+- expected_values:
+    LANDCRUISER_TF1_PAN: 132.8
+  response: '709056216276000'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 134.6
+  response: '709056216276100'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 136.4
+  response: '709056216276200'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 138.2
+  response: '709056216276300'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 140
+  response: '709056216276400'
+- expected_values:
+    LANDCRUISER_TF1_PAN: 141.8
+  response: '709056216276500'
