@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_ODO_V5: 82431
   response: 70907620103010141FF
+- expected_values:
+    LANDCRUISER_ODO_V5: 82432
+  response: '7090762010301014200'
