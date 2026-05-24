@@ -10,5 +10,5 @@ test_cases:
     LANDCRUISER_FLV: 46.15
   response: 7C8056210221207
 - expected_values:
-    LANDCRUISER_FLV: 79.77
-  response: 7C8056210221F29
+    LANDCRUISER_FLV: 79.71
+  response: 7C8056210221F23
