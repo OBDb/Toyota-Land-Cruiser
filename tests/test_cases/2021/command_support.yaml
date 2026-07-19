@@ -15,6 +15,8 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0142
   - 7DF.01A6
+  "7E0":
+  - 7E0.0104:LOAD_PCT
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.221700|e=40,fc=1:LANDCRUISER_ODO_V3
@@ -54,7 +56,6 @@ unsupported_commands_by_ecu:
   - 7D2.7DA.22106C|fc=1:LANDCRUISER_HVBAT_SOC_MAX,LANDCRUISER_HVBAT_SOC_MIN
   - 7D2.7DA.221F0D|fc=1:LANDCRUISER_VSS_V2
   "7E0":
-  - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0110:MAF
   - 7E0.0111:TP
