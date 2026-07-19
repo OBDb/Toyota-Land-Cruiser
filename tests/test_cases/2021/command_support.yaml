@@ -17,6 +17,7 @@ supported_commands_by_ecu:
   - 7DF.01A6
   "7E0":
   - 7E0.0104:LOAD_PCT
+  - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.221700|e=40,fc=1:LANDCRUISER_ODO_V3
@@ -60,7 +61,6 @@ unsupported_commands_by_ecu:
   - 7E0.0110:MAF
   - 7E0.0111:TP
   - 7E0.011C:OBDSUP
-  - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
   - 7E0.0146:AAT
   - 7E0.01A6:ODO
