@@ -1,6 +1,13 @@
 command_id: 750.2130|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    LANDCRUISER_TP_FL: 2.32759
+    LANDCRUISER_TP_FR: 2.32759
+    LANDCRUISER_TP_RL: 2.27586
+    LANDCRUISER_TP_RR: 2.2931
+    LANDCRUISER_TP_SPARE: 3.03448
+  response: "758 2A 10 07 61 30 A4 A4 A1 \n758 2A 21 A2 CD 00 00 00 00 "
+- expected_values:
     LANDCRUISER_TP_FL: 0
     LANDCRUISER_TP_FR: 0
     LANDCRUISER_TP_RL: 0
