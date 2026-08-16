@@ -1,6 +1,10 @@
 command_id: 7E0.7E8.2182
 test_cases:
 - expected_values:
+    LANDCRUISER_ATF_PAN_T: 69.375
+    LANDCRUISER_ATF_TQC_T: 78.75
+  response: '7E8 06 61 82 6D 60 76 C0 '
+- expected_values:
     LANDCRUISER_ATF_PAN_T: 44.375
     LANDCRUISER_ATF_TQC_T: 50
   response: 7E806618254605A00
