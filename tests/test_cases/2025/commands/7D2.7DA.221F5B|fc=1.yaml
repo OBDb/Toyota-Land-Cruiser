@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.221F5B|fc=1
+test_cases:
+- expected_values:
+    LANDCRUISER_SOC: 40
+  response: 7DA04621F5B66
+- expected_values:
+    LANDCRUISER_SOC: 59.21569
+  response: 7DA04621F5B97
+- expected_values:
+    LANDCRUISER_SOC: 71.37255
+  response: 7DA04621F5BB6
