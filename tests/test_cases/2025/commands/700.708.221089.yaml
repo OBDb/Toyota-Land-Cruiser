@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_EXHAUST_VVT_HOLD_LEARN_B1: 58.03691
   response: '708056210892527'
+- expected_values:
+    LANDCRUISER_EXHAUST_VVT_HOLD_LEARN_B1: 66.25642
+  response: 708056210892A6A

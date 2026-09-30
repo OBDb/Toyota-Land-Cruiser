@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.221002
+test_cases:
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.16664
+  response: 7DA056210022D5C
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.18616
+  response: 7DA056210022D6C
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.19104
+  response: 7DA056210022D70
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.20568
+  response: 7DA056210022D7C
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.21056
+  response: 7DA056210022D80
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.21544
+  response: 7DA056210022D84
+- expected_values:
+    LANDCRUISER_AUX_BAT_V: 14.22032
+  response: 7DA056210022D88

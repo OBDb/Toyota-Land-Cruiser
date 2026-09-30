@@ -1,6 +1,9 @@
 command_id: 700.708.221046
 test_cases:
 - expected_values:
+    LANDCRUISER_COOLING_FAN_DUTY_RATIO: 0
+  response: '7080462104600'
+- expected_values:
     LANDCRUISER_COOLING_FAN_DUTY_RATIO: 53
   response: 708046210466A
 - expected_values:

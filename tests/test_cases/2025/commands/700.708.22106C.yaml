@@ -1,5 +1,8 @@
 command_id: 700.708.22106C
 test_cases:
 - expected_values:
+    LANDCRUISER_DIST_SINCE_BAT_DISC: 6830
+  response: 7080562106C1AAE
+- expected_values:
     LANDCRUISER_DIST_SINCE_BAT_DISC: 19235
   response: 7080562106C4B23

@@ -1,0 +1,26 @@
+command_id: 7D2.7DA.221040
+test_cases:
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 31
+  response: 7DA06621040C12047
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 31
+  response: 7DA06621040C18047
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 30
+  response: 7DA06621040C2E046
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 30
+  response: 7DA06621040C32046
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 29
+  response: 7DA06621040C38045
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 29
+  response: 7DA06621040C39045
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 29
+  response: 7DA06621040C3A045
+- expected_values:
+    LANDCRUISER_TRANSAXLE_OIL_T: 28
+  response: 7DA06621040C47044

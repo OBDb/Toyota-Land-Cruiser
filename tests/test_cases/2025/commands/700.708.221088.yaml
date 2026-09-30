@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_EXHAUST_VVT_ANGLE_B1: 0
   response: '708056210880000'
+- expected_values:
+    LANDCRUISER_EXHAUST_VVT_ANGLE_B1: 0.02929
+  response: '708056210880003'

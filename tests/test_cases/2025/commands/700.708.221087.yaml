@@ -1,6 +1,9 @@
 command_id: 700.708.221087
 test_cases:
 - expected_values:
+    LANDCRUISER_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0
+  response: '708056210870000'
+- expected_values:
     LANDCRUISER_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0.03906
   response: '708056210870004'
 - expected_values:
@@ -9,3 +12,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0.15623
   response: '708056210870010'
+- expected_values:
+    LANDCRUISER_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0.17576
+  response: '708056210870012'
