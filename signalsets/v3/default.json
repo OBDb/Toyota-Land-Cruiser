@@ -1,93 +1,4 @@
 { "commands": [
-{ "hdr": "6F1", "eax": "40", "fcm1": true, "dbg": true, "cmd": {"22": "1700"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_ODO_V3", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant"}
-  ]},
-{ "hdr": "6F1", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4AB1"}, "freq": 0.25,
-  "signals": [
-    {"id": "LANDCRUISER_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "586F"}, "freq": 30,
-  "signals": [
-    {"id": "LANDCRUISER_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
-  ]},
-{ "hdr": "6F1", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D107"}, "freq": 0.25,
-  "signals": [
-    {"id": "LANDCRUISER_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D10D"}, "freq": 5,
-  "signals": [
-    {"id": "LANDCRUISER_ODO",    "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #1", "suggestedMetric": "odometer"},
-    {"id": "LANDCRUISER_ODO_V2", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "6F1", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D240"}, "freq": 0.25,
-  "signals": [
-    {"id": "LANDCRUISER_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA12"}, "freq": 30,
-  "signals": [
-    {"id": "LANDCRUISER_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission fluid temperature"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA1F"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA22"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
-          "0": { "description": "Open",               "value": "OPEN" },
-          "1": { "description": "Controlled low",     "value": "CONTROL_LOW" },
-          "2": { "description": "Controlled high",    "value": "CONTROL_HIGH" },
-          "3": { "description": "Closed low",         "value": "CLOSED_LOW" },
-          "4": { "description": "Closed high",        "value": "CLOSED_HIGH" },
-          "8": { "description": "Transition to open", "value": "TRANSITION_OPEN" }
-        }}
-    }
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA23"}, "freq": 15,
-  "signals": [
-    {"id": "LANDCRUISER_ODO_V4", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA25"}, "freq": 30,
-  "signals": [
-    {"id": "LANDCRUISER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA28"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA2A"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
-    {"id": "LANDCRUISER_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA2E"}, "freq": 30,
-  "signals": [
-    {"id": "LANDCRUISER_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA37"}, "freq": 30,
-  "signals": [
-    {"id": "LANDCRUISER_TIME_D", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in d"},
-    {"id": "LANDCRUISER_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in s"},
-    {"id": "LANDCRUISER_TIME_M", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in m"}
-  ]},
-{ "hdr": "6F1", "eax": "19", "fcm1": true, "dbg": true, "cmd": {"22": "DB32"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
-    {"id": "LANDCRUISER_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, set point torque"}
-  ]},
-{ "hdr": "6F1", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
-  "signals": [
-    {"id": "LANDCRUISER_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "LANDCRUISER_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "LANDCRUISER_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "LANDCRUISER_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
-  ]},
-{ "hdr": "6F1", "eax": "19", "fcm1": true, "dbg": true, "cmd": {"22": "DFE7"}, "freq": 1,
-  "signals": [
-    {"id": "LANDCRUISER_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
-    {"id": "LANDCRUISER_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
-  ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30,
   "signals": [
     {"id": "LANDCRUISER_ENG_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
@@ -136,7 +47,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LANDCRUISER_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -41, "unit": "percent" }, "name": "Accelerator pedal"}
+    {"id": "LANDCRUISER_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -169,7 +80,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LANDCRUISER_EOP_700", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+    {"id": "LANDCRUISER_EOP_700", "path": "Engine", "fmt": { "len": 16, "max": 5119.92, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1075"}, "freq": 1,
   "signals": [
@@ -207,7 +118,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108A"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
+    {"id": "LANDCRUISER_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -436,9 +347,9 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1F6D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "LANDCRUISER_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "High fuel pressure, target"},
-    {"id": "LANDCRUISER_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655.35,            "div": 100, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
-    {"id": "LANDCRUISER_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "Low fuel pressure"}
+    {"id": "LANDCRUISER_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, target"},
+    {"id": "LANDCRUISER_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
+    {"id": "LANDCRUISER_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F77"}, "freq": 5,
   "signals": [
@@ -664,16 +575,16 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "42"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
-    {"id": "LANDCRUISER_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
-    {"id": "LANDCRUISER_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
-    {"id": "LANDCRUISER_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
+    {"id": "LANDCRUISER_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
+    {"id": "LANDCRUISER_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
+    {"id": "LANDCRUISER_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
+    {"id": "LANDCRUISER_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "46"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
-    {"id": "LANDCRUISER_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
-    {"id": "LANDCRUISER_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127, "min": -128,                        "add": -128,   "unit": "scalar"                 }, "name": "Zero point of yaw rate"}
+    {"id": "LANDCRUISER_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
+    {"id": "LANDCRUISER_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
+    {"id": "LANDCRUISER_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "scalar"  }, "name": "Zero point of yaw rate"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2013, 2014, 2015] },
   "signals": [
@@ -905,7 +816,7 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "53"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.2943, "min": -0.4566, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
+    {"id": "LANDCRUISER_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3294, "min": -456.68, "mul": 375105, "div": 25500, "add": -456.68, "unit": "kilopascal" }, "name": "Regulator pressure"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "AF"}, "freq": 5,
   "signals": [
@@ -1115,7 +1026,7 @@
     {"id": "LANDCRUISER_TARGET_AIR_FUEL_RATIO", "path": "Fuel",    "fmt": {           "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel ratio"},
     {"id": "LANDCRUISER_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "AF lambda, bank 1 sensor 1"},
     {"id": "LANDCRUISER_AFS_VOLTAGE_B1S1",      "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 7.99,                "mul": 7.99, "div": 65535,              "unit": "volts"     }, "name": "Air fuel sensor voltage, bank 1 sensor 1"},
-    {"id": "LANDCRUISER_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,                            "add": -128, "unit": "milliamps" }, "name": "Air fuel sensor current, bank 1 sensor 1"},
+    {"id": "LANDCRUISER_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,              "div": 256,   "add": -128, "unit": "milliamps" }, "name": "Air fuel sensor current, bank 1 sensor 1"},
     {"id": "LANDCRUISER_O2S_B1S2",              "path": "Engine",  "fmt": {"bix": 80, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "O2S, bank 1 sensor 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "05"}, "freq": 1,
@@ -1257,9 +1168,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3C"}, "freq": 1,
   "signals": [
-    {"id": "LANDCRUISER_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 2.047, "unit": "scalar" }, "name": "Injection volume, cylinder 1"},
-    {"id": "LANDCRUISER_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Injection duration for cylinder 1"},
-    {"id": "LANDCRUISER_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 0.496, "unit": "scalar" }, "name": "Total fuel trim 1"}
+    {"id": "LANDCRUISER_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002047,                         "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
+    {"id": "LANDCRUISER_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                           "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
+    {"id": "LANDCRUISER_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 49.6,     "min": -50, "mul": 100, "div": 256,      "add": -50, "unit": "percent"      }, "name": "Total fuel trim, bank 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3E"}, "freq": 5,
   "signals": [
