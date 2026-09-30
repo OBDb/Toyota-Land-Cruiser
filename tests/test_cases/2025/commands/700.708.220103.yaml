@@ -1,0 +1,5 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    LANDCRUISER_ENG_ODO: 7014
+  response: 7080762010301001B66

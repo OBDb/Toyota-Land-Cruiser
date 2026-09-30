@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.2215F7
+test_cases:
+- expected_values:
+    LANDCRUISER_12V_C: 5.7641
+  response: 7DA056215F785E7
+- expected_values:
+    LANDCRUISER_12V_C: 5.79843
+  response: 7DA056215F785F0
+- expected_values:
+    LANDCRUISER_12V_C: 6.20661
+  response: 7DA056215F7865B
+- expected_values:
+    LANDCRUISER_12V_C: 6.30579
+  response: 7DA056215F78675
+- expected_values:
+    LANDCRUISER_12V_C: 7.03058
+  response: 7DA056215F78733
+- expected_values:
+    LANDCRUISER_12V_C: 7.03821
+  response: 7DA056215F78735
+- expected_values:
+    LANDCRUISER_12V_C: 7.79352
+  response: 7DA056215F787FB
+- expected_values:
+    LANDCRUISER_12V_C: 8.85782
+  response: 7DA056215F78912
+- expected_values:
+    LANDCRUISER_12V_C: 9.15537
+  response: 7DA056215F78960
+- expected_values:
+    LANDCRUISER_12V_C: 12.00877
+  response: 7DA056215F78C4C

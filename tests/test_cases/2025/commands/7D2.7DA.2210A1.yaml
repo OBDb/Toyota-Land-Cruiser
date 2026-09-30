@@ -1,0 +1,50 @@
+command_id: 7D2.7DA.2210A1
+test_cases:
+- expected_values:
+    LANDCRUISER_RPM: 0
+    LANDCRUISER_TQ: -0.5
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFC0400
+- expected_values:
+    LANDCRUISER_RPM: 0
+    LANDCRUISER_TQ: -0.25
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFE0400
+- expected_values:
+    LANDCRUISER_RPM: 0
+    LANDCRUISER_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFF0400
+- expected_values:
+    LANDCRUISER_RPM: 0
+    LANDCRUISER_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100010080000400
+- expected_values:
+    LANDCRUISER_RPM: 1
+    LANDCRUISER_TQ: 0
+  response: |-
+    7DA100C6210A1800180
+    7DA2100010080000400
+- expected_values:
+    LANDCRUISER_RPM: 922
+    LANDCRUISER_TQ: -27.5
+  response: |-
+    7DA100C6210A1839A7F
+    7DA211204007F240400
+- expected_values:
+    LANDCRUISER_RPM: 923
+    LANDCRUISER_TQ: -20.375
+  response: |-
+    7DA100C6210A1839B7F
+    7DA214904007F5D0400
+- expected_values:
+    LANDCRUISER_RPM: 1081
+    LANDCRUISER_TQ: -20.875
+  response: |-
+    7DA100C6210A184397F
+    7DA214B04007F590400
