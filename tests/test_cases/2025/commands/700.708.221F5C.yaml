@@ -1,0 +1,8 @@
+command_id: 700.708.221F5C
+test_cases:
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 81
+  response: 70804621F5C79
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 82
+  response: 70804621F5C7A

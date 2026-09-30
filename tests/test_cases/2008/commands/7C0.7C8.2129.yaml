@@ -1,0 +1,14 @@
+command_id: 7C0.7C8.2129
+test_cases:
+- expected_values:
+    LANDCRUISER_FUEL_INPUT: 140
+  response: 7C80361298C
+- expected_values:
+    LANDCRUISER_FUEL_INPUT: 141
+  response: 7C80361298D
+- expected_values:
+    LANDCRUISER_FUEL_INPUT: 142
+  response: 7C80361298E
+- expected_values:
+    LANDCRUISER_FUEL_INPUT: 148
+  response: 7C803612994

@@ -1,0 +1,14 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    LANDCRUISER_CAT_T_12: 311.1
+  response: 70805621F3E0DB7
+- expected_values:
+    LANDCRUISER_CAT_T_12: 315.4
+  response: 70805621F3E0DE2
+- expected_values:
+    LANDCRUISER_CAT_T_12: 316.2
+  response: 70805621F3E0DEA
+- expected_values:
+    LANDCRUISER_CAT_T_12: 319.9
+  response: 70805621F3E0E0F

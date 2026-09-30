@@ -1,0 +1,22 @@
+command_id: 700.708.2210A5
+test_cases:
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000027
+    7082100DC0000000000
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A500002C
+    7082100DA0000000000
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000031
+    7082100DA0000000000
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A50000CD
+    7082100D70000000000

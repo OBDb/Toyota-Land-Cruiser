@@ -1,0 +1,6 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    LANDCRUISER_ECT_IGN: 66.875
+    LANDCRUISER_ECT_INIT: 66.875
+  response: 70805621041ABAB
