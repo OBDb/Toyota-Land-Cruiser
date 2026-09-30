@@ -1,0 +1,20 @@
+command_id: 7D2.7DA.221F05
+test_cases:
+- expected_values:
+    LANDCRUISER_COOL_T: 30
+  response: 7DA04621F0546
+- expected_values:
+    LANDCRUISER_COOL_T: 47
+  response: 7DA04621F0557
+- expected_values:
+    LANDCRUISER_COOL_T: 49
+  response: 7DA04621F0559
+- expected_values:
+    LANDCRUISER_COOL_T: 50
+  response: 7DA04621F055A
+- expected_values:
+    LANDCRUISER_COOL_T: 55
+  response: 7DA04621F055F
+- expected_values:
+    LANDCRUISER_COOL_T: 61
+  response: 7DA04621F0565

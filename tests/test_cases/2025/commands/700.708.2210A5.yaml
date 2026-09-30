@@ -3,6 +3,11 @@ test_cases:
 - expected_values:
     LANDCRUISER_MISFIRE_CNT: 0
   response: |-
+    70810086210A5000000
+    7082100DA0000000000
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
     70810086210A5000027
     7082100DC0000000000
 - expected_values:
@@ -15,6 +20,11 @@ test_cases:
   response: |-
     70810086210A5000031
     7082100DA0000000000
+- expected_values:
+    LANDCRUISER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000045
+    7082100330000000000
 - expected_values:
     LANDCRUISER_MISFIRE_CNT: 0
   response: |-

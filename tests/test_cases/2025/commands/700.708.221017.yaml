@@ -1,6 +1,9 @@
 command_id: 700.708.221017
 test_cases:
 - expected_values:
+    LANDCRUISER_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
     LANDCRUISER_INJ_VOL: 1.43844
   response: 7080562101711FB
 - expected_values:
@@ -12,3 +15,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_INJ_VOL: 1.54312
   response: 70805621017134A
+- expected_values:
+    LANDCRUISER_INJ_VOL: 1.64812
+  response: 70805621017149A

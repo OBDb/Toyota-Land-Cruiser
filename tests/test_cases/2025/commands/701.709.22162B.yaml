@@ -1,5 +1,8 @@
 command_id: 701.709.22162B
 test_cases:
 - expected_values:
+    LANDCRUISER_ATF_THERMAL_DEGRAD_EST: 96
+  response: 7090562162B0060
+- expected_values:
     LANDCRUISER_ATF_THERMAL_DEGRAD_EST: 553
   response: 7090562162B0229

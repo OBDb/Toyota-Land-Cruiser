@@ -1,6 +1,21 @@
 command_id: 700.708.221F5C
 test_cases:
 - expected_values:
+    LANDCRUISER_EOT_V2_700: 33
+  response: 70804621F5C49
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 36
+  response: 70804621F5C4C
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 37
+  response: 70804621F5C4D
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 38
+  response: 70804621F5C4E
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 41
+  response: 70804621F5C51
+- expected_values:
     LANDCRUISER_EOT_V2_700: 81
   response: 70804621F5C79
 - expected_values:
