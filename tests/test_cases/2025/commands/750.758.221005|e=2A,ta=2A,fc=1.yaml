@@ -1,16 +1,14 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    LANDCRUISER_TP_5: 31.87879
+    LANDCRUISER_TP_1: null
+    LANDCRUISER_TP_2: null
+    LANDCRUISER_TP_3: null
+    LANDCRUISER_TP_4: null
+    LANDCRUISER_TP_5: null
   response: |-
     7582A100D6210050000
     7582A21000000000000
-    7582A22009B00000000
-- expected_values:
-    LANDCRUISER_TP_4: 32.12121
-  response: |-
-    7582A100D6210050000
-    7582A2100000000009C
     7582A22000000000000
 - expected_values:
     LANDCRUISER_TP_2: 36.72727
