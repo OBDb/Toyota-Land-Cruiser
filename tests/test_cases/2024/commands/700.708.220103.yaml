@@ -1,0 +1,8 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    LANDCRUISER_ENG_ODO: 32303
+  response: 7080762010301007E2F
+- expected_values:
+    LANDCRUISER_ENG_ODO: 32304
+  response: '7080762010301007E30'

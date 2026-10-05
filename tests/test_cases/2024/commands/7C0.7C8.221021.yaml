@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    LANDCRUISER_BATTERY_VOLTAGE_7C0: 13.9
+  response: '7C8 04 62 10 21 8B '
+- expected_values:
+    LANDCRUISER_BATTERY_VOLTAGE_7C0: 13.9
+  response: 7C8046210218B

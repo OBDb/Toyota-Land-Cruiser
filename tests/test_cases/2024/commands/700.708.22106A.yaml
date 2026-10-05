@@ -1,0 +1,14 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    LANDCRUISER_FUEL_PUMP_DUTY_RATIO: 258.65854
+  response: 7080562106A1092
+- expected_values:
+    LANDCRUISER_FUEL_PUMP_DUTY_RATIO: 261.03659
+  response: 7080562106A10B9
+- expected_values:
+    LANDCRUISER_FUEL_PUMP_DUTY_RATIO: 264.69512
+  response: 7080562106A10F5
+- expected_values:
+    LANDCRUISER_FUEL_PUMP_DUTY_RATIO: 268.17073
+  response: 7080562106A112E

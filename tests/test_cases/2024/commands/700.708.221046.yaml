@@ -1,0 +1,14 @@
+command_id: 700.708.221046
+test_cases:
+- expected_values:
+    LANDCRUISER_COOLING_FAN_DUTY_RATIO: 35.5
+  response: '7080462104647'
+- expected_values:
+    LANDCRUISER_COOLING_FAN_DUTY_RATIO: 36
+  response: '7080462104648'
+- expected_values:
+    LANDCRUISER_COOLING_FAN_DUTY_RATIO: 36.5
+  response: '7080462104649'
+- expected_values:
+    LANDCRUISER_COOLING_FAN_DUTY_RATIO: 40
+  response: '7080462104650'
