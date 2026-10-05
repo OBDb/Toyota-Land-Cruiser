@@ -1,0 +1,11 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    LANDCRUISER_INJECTION: BOTH
+  response: 7080762101902858A8C
+- expected_values:
+    LANDCRUISER_INJECTION: BOTH
+  response: '7080762101902868000'
+- expected_values:
+    LANDCRUISER_INJECTION: BOTH
+  response: 7080762101902EF8000

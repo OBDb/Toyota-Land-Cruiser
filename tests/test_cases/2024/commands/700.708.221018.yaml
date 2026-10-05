@@ -1,0 +1,14 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    LANDCRUISER_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    LANDCRUISER_INJECTOR_PORT: 3.645
+  response: 708056210180E3D
+- expected_values:
+    LANDCRUISER_INJECTOR_PORT: 5.215
+  response: 70805621018145F
+- expected_values:
+    LANDCRUISER_INJECTOR_PORT: 9.672
+  response: 7080562101825C8

@@ -1,0 +1,17 @@
+command_id: 7B3.7BB.221004
+test_cases:
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: 0
+  response: 7BB066210040000FD
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -105
+  response: 7BB06621004FFBA06
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -24
+  response: 7BB06621004FFF005
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -18
+  response: 7BB06621004FFF4FF
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -7.5
+  response: 7BB06621004FFFB07

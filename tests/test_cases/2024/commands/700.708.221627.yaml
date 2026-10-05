@@ -1,0 +1,14 @@
+command_id: 700.708.221627
+test_cases:
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 33.75
+  response: 7080562162749C0
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 35
+  response: 708056216274B00
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 36.875
+  response: 708056216274CE0
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 38.75
+  response: 708056216274EC0

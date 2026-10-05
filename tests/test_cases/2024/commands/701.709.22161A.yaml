@@ -1,0 +1,17 @@
+command_id: 701.709.22161A
+test_cases:
+- expected_values:
+    LANDCRUISER_NT_SPD: 1013
+  response: 7090562161A03F5
+- expected_values:
+    LANDCRUISER_NT_SPD: 1351
+  response: 7090562161A0547
+- expected_values:
+    LANDCRUISER_NT_SPD: 1567
+  response: 7090562161A061F
+- expected_values:
+    LANDCRUISER_NT_SPD: 1636
+  response: 7090562161A0664
+- expected_values:
+    LANDCRUISER_NT_SPD: 1942
+  response: 7090562161A0796
