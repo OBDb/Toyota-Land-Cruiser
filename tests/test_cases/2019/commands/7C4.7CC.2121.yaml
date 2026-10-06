@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2121
 test_cases:
 - expected_values:
-    LANDCRUISER_CABIN_T: 22.75
-  response: 7CC03612175
+    LANDCRUISER_CABIN_T: 13.25
+  response: 7CC0361214F
 - expected_values:
     LANDCRUISER_CABIN_T: 26.5
   response: 7CC03612184

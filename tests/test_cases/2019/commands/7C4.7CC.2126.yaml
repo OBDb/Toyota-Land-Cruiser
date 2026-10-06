@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    LANDCRUISER_ECT: 66.05
-  response: 7CC036126B9
+    LANDCRUISER_ECT: 16
+  response: 7CC0361262A
 - expected_values:
-    LANDCRUISER_ECT: 87.75
-  response: 7CC036126F7
+    LANDCRUISER_ECT: 89.5
+  response: 7CC036126FC
