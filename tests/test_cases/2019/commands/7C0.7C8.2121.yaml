@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     LANDCRUISER_VSS_7C0: 0
   response: 7C803612100
+- expected_values:
+    LANDCRUISER_VSS_7C0: 10
+  response: 7C80361210A
+- expected_values:
+    LANDCRUISER_VSS_7C0: 19
+  response: 7C803612113
+- expected_values:
+    LANDCRUISER_VSS_7C0: 45
+  response: 7C80361212D
+- expected_values:
+    LANDCRUISER_VSS_7C0: 50
+  response: 7C803612132
+- expected_values:
+    LANDCRUISER_VSS_7C0: 59
+  response: 7C80361213B
