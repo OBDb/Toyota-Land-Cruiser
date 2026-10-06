@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     LANDCRUISER_PARKING_BRAKE_2: 0
   response: 7D80461620100
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D80461620101
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D80461620103
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8046162010C
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8046162012B
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8046162012D
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8046162012F

@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     LANDCRUISER_EVAPORATOR_TARGET_TEMP: 1.5
   response: 7CC04614C8096
+- expected_values:
+    LANDCRUISER_EVAPORATOR_TARGET_TEMP: 1.77
+  response: 7CC04614C80B1
+- expected_values:
+    LANDCRUISER_EVAPORATOR_TARGET_TEMP: 2.29
+  response: 7CC04614C80E5
+- expected_values:
+    LANDCRUISER_EVAPORATOR_TARGET_TEMP: 2.3
+  response: 7CC04614C80E6
+- expected_values:
+    LANDCRUISER_EVAPORATOR_TARGET_TEMP: 2.81
+  response: 7CC04614C8119

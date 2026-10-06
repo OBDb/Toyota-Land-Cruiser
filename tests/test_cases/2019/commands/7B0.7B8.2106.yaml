@@ -1,22 +1,18 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
-    LANDCRUISER_YAW_1: 0
-    LANDCRUISER_YAW_2: -4
-  response: 7B8056106807C8B
+    LANDCRUISER_YAW_1: -15
+    LANDCRUISER_YAW_2: -11
+  response: 7B8056106717556
 - expected_values:
-    LANDCRUISER_YAW_1: 0
-    LANDCRUISER_YAW_2: -4
-  response: 7B8056106807C9A
-- expected_values:
-    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_1: -5
     LANDCRUISER_YAW_2: -2
-  response: 7B8056106807EF2
+  response: 7B80561067B7EF2
 - expected_values:
-    LANDCRUISER_YAW_1: 0
-    LANDCRUISER_YAW_2: -1
-  response: 7B8056106807F3D
-- expected_values:
-    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_1: 6
     LANDCRUISER_YAW_2: 0
-  response: 7B8056106808096
+  response: 7B80561068680F0
+- expected_values:
+    LANDCRUISER_YAW_1: 6
+    LANDCRUISER_YAW_2: 16
+  response: 7B805610686900E
