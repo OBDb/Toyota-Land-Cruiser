@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    LANDCRUISER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10000305B
+    7E82100004BCE000000
+- expected_values:
+    LANDCRUISER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10000305B
+    7E82100004F06000000
+- expected_values:
+    LANDCRUISER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10000305B
+    7E82100005DBF000000
+- expected_values:
+    LANDCRUISER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10000305B
+    7E82100006080000000

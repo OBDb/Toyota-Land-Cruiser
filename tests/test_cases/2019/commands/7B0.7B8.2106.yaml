@@ -1,0 +1,22 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_2: -4
+  response: 7B8056106807C8B
+- expected_values:
+    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_2: -4
+  response: 7B8056106807C9A
+- expected_values:
+    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_2: -2
+  response: 7B8056106807EF2
+- expected_values:
+    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_2: -1
+  response: 7B8056106807F3D
+- expected_values:
+    LANDCRUISER_YAW_1: 0
+    LANDCRUISER_YAW_2: 0
+  response: 7B8056106808096
