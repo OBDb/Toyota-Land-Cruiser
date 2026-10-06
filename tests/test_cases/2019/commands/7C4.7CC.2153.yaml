@@ -1,0 +1,23 @@
+command_id: 7C4.7CC.2153
+test_cases:
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 984.9
+  response: 7CC03615362
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1146.71
+  response: 7CC0361536D
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1176.13
+  response: 7CC0361536F
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1249.68
+  response: 7CC03615374
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1367.36
+  response: 7CC0361537C
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1455.62
+  response: 7CC03615382
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 1485.04
+  response: 7CC03615384

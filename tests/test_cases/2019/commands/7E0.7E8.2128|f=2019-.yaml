@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_ODO_V7: 199982
   response: 7E8056128030D2E
 - expected_values:
-    LANDCRUISER_ODO_V7: 200042
-  response: 7E8056128030D6A
+    LANDCRUISER_ODO_V7: 211321
+  response: '7E8056128033979'

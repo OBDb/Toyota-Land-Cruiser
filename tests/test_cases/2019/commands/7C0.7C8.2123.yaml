@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2123
+test_cases:
+- expected_values:
+    LANDCRUISER_ECT_7C0: 0
+  response: 7C803612300
+- expected_values:
+    LANDCRUISER_ECT_7C0: 84
+  response: 7C8036123A8
+- expected_values:
+    LANDCRUISER_ECT_7C0: 85
+  response: 7C8036123AA
+- expected_values:
+    LANDCRUISER_ECT_7C0: 85.5
+  response: 7C8036123AB
+- expected_values:
+    LANDCRUISER_ECT_7C0: 86
+  response: 7C8036123AC
