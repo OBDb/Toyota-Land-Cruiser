@@ -2,7 +2,7 @@ command_id: 7D2.7DA.2215EE
 test_cases:
 - expected_values:
     LANDCRUISER_12V_V_7D2: 12.5917
-  response: 7DA056215EE28FC
+  response: 7DA056215EE28F6
 - expected_values:
     LANDCRUISER_12V_V_7D2: 12.5917
   response: 7DA056215EE28FE
@@ -11,4 +11,4 @@ test_cases:
   response: 7DA056215EE2902
 - expected_values:
     LANDCRUISER_12V_V_7D2: 14.1641
-  response: 7DA056215EE2D82
+  response: 7DA056215EE2D0C
