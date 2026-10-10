@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_EOT_V2_700: 82
   response: 70804621F5C7A
+- expected_values:
+    LANDCRUISER_EOT_V2_700: 92
+  response: 70804621F5C84
