@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_ECT: 16
   response: 7CC0361262A
 - expected_values:
-    LANDCRUISER_ECT: 89.5
-  response: 7CC036126FC
+    LANDCRUISER_ECT: 90.55
+  response: 7CC036126FF
