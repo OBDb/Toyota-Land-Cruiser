@@ -11,4 +11,4 @@ test_cases:
   response: 7DA056215EE2902
 - expected_values:
     LANDCRUISER_12V_V_7D2: 14.1641
-  response: 7DA056215EE2D8E
+  response: 7DA056215EE2D82
