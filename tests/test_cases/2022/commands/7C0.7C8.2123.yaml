@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_ECT_7C0: 31
   response: 7C80361233E
 - expected_values:
-    LANDCRUISER_ECT_7C0: 55
-  response: 7C80361236E
+    LANDCRUISER_ECT_7C0: 61.5
+  response: 7C80361237B

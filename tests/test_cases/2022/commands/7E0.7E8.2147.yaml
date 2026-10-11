@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2147
 test_cases:
 - expected_values:
-    LANDCRUISER_EGR_STEP_POSITION: 78
-  response: 7E80361474E
+    LANDCRUISER_EGR_STEP_POSITION: 61
+  response: 7E80361473D
 - expected_values:
     LANDCRUISER_EGR_STEP_POSITION: 98
   response: '7E803614762'
