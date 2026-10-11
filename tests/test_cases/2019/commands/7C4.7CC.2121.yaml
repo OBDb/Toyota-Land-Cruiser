@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_CABIN_T: 13.25
   response: 7CC0361214F
 - expected_values:
-    LANDCRUISER_CABIN_T: 31.25
-  response: 7CC03612197
+    LANDCRUISER_CABIN_T: 33
+  response: 7CC0361219E
