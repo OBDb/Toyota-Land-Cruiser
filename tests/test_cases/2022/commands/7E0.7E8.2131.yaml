@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    LANDCRUISER_VALVEMATIC_CURRENT: 5.41016
+  response: 7E8046131022A

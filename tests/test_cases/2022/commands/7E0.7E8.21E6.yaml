@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.21E6
+test_cases:
+- expected_values:
+    LANDCRUISER_AC_COMP: 0
+    LANDCRUISER_FUEL_CUT: 0
+    LANDCRUISER_IDLE_CTRL: 0
+  response: 7E80761E60080044001

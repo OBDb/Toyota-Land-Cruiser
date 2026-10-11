@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2111
+test_cases:
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 30.98039
+  response: 7E80361114F
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 31.37255
+  response: '7E803611150'
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 31.76471
+  response: '7E803611151'
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 32.15686
+  response: '7E803611152'
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 33.33333
+  response: '7E803611155'
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 33.72549
+  response: '7E803611156'
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 35.29412
+  response: 7E80361115A
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 36.07843
+  response: 7E80361115C
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 37.2549
+  response: 7E80361115F
+- expected_values:
+    LANDCRUISER_THROTTLE_21: 38.03922
+  response: '7E803611161'

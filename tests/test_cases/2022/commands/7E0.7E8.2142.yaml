@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2142
+test_cases:
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.58198
+  response: 7E804614236B3
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.50568
+  response: 7E804614236C7
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.35691
+  response: 7E804614236EE
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.20813
+  response: '7E80461423715'
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.13184
+  response: '7E80461423729'
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -71.05936
+  response: 7E8046142373C
+- expected_values:
+    LANDCRUISER_BAT_CURRENT: -70.98306
+  response: '7E80461423750'
