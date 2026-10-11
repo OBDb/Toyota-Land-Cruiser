@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2110
+test_cases:
+- expected_values:
+    LANDCRUISER_MAF_21: 48.34
+  response: 7E804611012E2
+- expected_values:
+    LANDCRUISER_MAF_21: 48.53
+  response: 7E804611012F5
+- expected_values:
+    LANDCRUISER_MAF_21: 51.42
+  response: '7E80461101416'

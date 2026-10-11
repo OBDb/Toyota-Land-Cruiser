@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.210F
+test_cases:
+- expected_values:
+    LANDCRUISER_IAT_21: 16
+  response: 7E803610F38
