@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_IAT_21: 16
   response: 7E803610F38
+- expected_values:
+    LANDCRUISER_IAT_21: 23
+  response: 7E803610F3F

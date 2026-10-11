@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2142
 test_cases:
 - expected_values:
+    LANDCRUISER_BAT_CURRENT: -72.47463
+  response: 7E804614235C9
+- expected_values:
     LANDCRUISER_BAT_CURRENT: -71.58198
   response: 7E804614236B3
 - expected_values:
