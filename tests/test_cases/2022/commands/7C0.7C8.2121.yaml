@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_VSS_7C0: 0
   response: 7C803612100
 - expected_values:
-    LANDCRUISER_VSS_7C0: 59
-  response: 7C80361213B
+    LANDCRUISER_VSS_7C0: 110
+  response: 7C80361216E
