@@ -996,7 +996,16 @@
     {"id": "LANDCRUISER_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage"},
     {"id": "LANDCRUISER_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2018 },
+  "signals": [
+    {"id": "LANDCRUISER_CALCULATED_LOAD_7E0_V2", "path": "Engine",   "fmt": {           "len": 8,  "max": 100,                  "mul": 100, "div": 255,             "unit": "percent"           }, "name": "Calculated load_7e0"},
+    {"id": "LANDCRUISER_ATMOSPHERE_PRESSURE_V2", "path": "Engine",   "fmt": {"bix": 48, "len": 8,  "max": 255,                                                      "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
+    {"id": "LANDCRUISER_COOLANT_TEMP_V2",        "path": "Engine",   "fmt": {"bix": 56, "len": 8,  "max": 215,      "min": -40,                         "add": -40, "unit": "celsius"           }, "name": "Coolant temp"},
+    {"id": "LANDCRUISER_ENGINE_SPEED_V2",        "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 16383.75,                         "div": 4,               "unit": "rpm"               }, "name": "Engine speed"},
+    {"id": "LANDCRUISER_VEHICLE_SPEED_V2",       "path": "Movement", "fmt": {"bix": 80, "len": 8,  "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Vehicle speed"},
+    {"id": "LANDCRUISER_ENGINE_RUN_TIME_V2",     "path": "Engine",   "fmt": {"bix": 88, "len": 16, "max": 65535,                                                    "unit": "seconds"           }, "name": "Engine run time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "from": 2020 }, "dbgfilter": { "years": [2021], "from": 2023 },
   "signals": [
     {"id": "LANDCRUISER_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "LANDCRUISER_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
