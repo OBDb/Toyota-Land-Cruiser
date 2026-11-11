@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2105
+test_cases:
+- expected_values:
+    LANDCRUISER_CATALYST_T_B1S1: 464.8
+    LANDCRUISER_CATALYST_T_B1S2: 136
+  response: "7E8 10 0A 61 05 13 B8 13 B8 \n7E8 21 06 E0 06 E0 00 00 00 "

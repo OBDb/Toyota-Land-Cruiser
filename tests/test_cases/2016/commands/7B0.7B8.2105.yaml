@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    LANDCRUISER_DECEL: -0.35647
+    LANDCRUISER_DECEL_2: -17.60965
+  response: |-
+    7B8100861057D040F00
+    7B82103720000000000
