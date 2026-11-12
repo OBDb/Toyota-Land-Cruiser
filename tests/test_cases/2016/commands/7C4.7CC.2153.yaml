@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_REGULATOR_P: 455.34
   response: 7CC0361533E
+- expected_values:
+    LANDCRUISER_REGULATOR_P: 558.31
+  response: 7CC03615345

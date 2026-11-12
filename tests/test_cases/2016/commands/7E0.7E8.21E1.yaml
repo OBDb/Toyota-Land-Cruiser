@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     LANDCRUISER_CODES_INCLUDE: 0
   response: "7E8 10 0A 61 E1 00 00 4A 02 \n7E8 21 00 00 06 0F 00 00 00 "
+- expected_values:
+    LANDCRUISER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100004A05
+    7E821000003A6000000
