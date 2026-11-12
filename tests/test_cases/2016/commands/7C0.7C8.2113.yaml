@@ -1,5 +1,8 @@
 command_id: 7C0.7C8.2113
 test_cases:
 - expected_values:
+    LANDCRUISER_BAT_V: 14.1
+  response: 7C80361138D
+- expected_values:
     LANDCRUISER_BAT_V: 14.2
   response: 7C80361138E
