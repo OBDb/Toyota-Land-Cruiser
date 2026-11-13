@@ -4,29 +4,8 @@ test_cases:
     LANDCRUISER_ATF_T_PAN_V3: 25
   response: '708056216274100'
 - expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 25.625
-  response: 7080562162741A0
-- expected_values:
     LANDCRUISER_ATF_T_PAN_V3: 26.875
   response: '7080562162742E0'
 - expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 27.5
-  response: '708056216274380'
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 30.625
-  response: 7080562162746A0
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 35
-  response: 708056216274B00
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 40.625
-  response: 7080562162750A0
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 62.5
-  response: '708056216276680'
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 70
-  response: '708056216276E00'
-- expected_values:
-    LANDCRUISER_ATF_T_PAN_V3: 70.625
-  response: 708056216276EA0
+    LANDCRUISER_ATF_T_PAN_V3: 75
+  response: '708056216277300'

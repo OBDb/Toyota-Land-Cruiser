@@ -16,5 +16,8 @@ test_cases:
     LANDCRUISER_AMBIENT_T: 25
   response: 70804621F4641
 - expected_values:
+    LANDCRUISER_AMBIENT_T: 26
+  response: 70804621F4642
+- expected_values:
     LANDCRUISER_AMBIENT_T: 27
   response: 70804621F4643

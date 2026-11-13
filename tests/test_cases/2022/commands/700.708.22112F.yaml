@@ -8,4 +8,4 @@ test_cases:
   response: 7080562112F83F6
 - expected_values:
     LANDCRUISER_INJ_VOLUME_TOT: 15
-  response: 7080562112F85EF
+  response: 7080562112F8670

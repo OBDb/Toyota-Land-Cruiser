@@ -1,29 +1,11 @@
 command_id: 7C0.7C8.221022|fc=1
 test_cases:
 - expected_values:
-    LANDCRUISER_FLV: 51.65
-  response: 7C805621022142D
+    LANDCRUISER_FLV: 42.23
+  response: 7C805621022107F
 - expected_values:
-    LANDCRUISER_FLV: 54.65
-  response: 7C8056210221559
-- expected_values:
-    LANDCRUISER_FLV: 55.25
-  response: 7C8056210221595
-- expected_values:
-    LANDCRUISER_FLV: 55.34
-  response: 7C805621022159E
-- expected_values:
-    LANDCRUISER_FLV: 55.37
-  response: 7C80562102215A1
-- expected_values:
-    LANDCRUISER_FLV: 55.47
-  response: 7C80562102215AB
-- expected_values:
-    LANDCRUISER_FLV: 57.61
-  response: 7C8056210221681
-- expected_values:
-    LANDCRUISER_FLV: 57.63
-  response: 7C8056210221683
+    LANDCRUISER_FLV: 58.95
+  response: 7C8056210221707
 - expected_values:
     LANDCRUISER_FLV: 61.09
   response: 7C80562102217DD

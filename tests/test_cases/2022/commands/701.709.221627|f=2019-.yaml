@@ -4,5 +4,5 @@ test_cases:
     LANDCRUISER_TF1_PAN: 77
   response: '709056216274100'
 - expected_values:
-    LANDCRUISER_TF1_PAN: 161.6
-  response: '709056216277000'
+    LANDCRUISER_TF1_PAN: 170.6
+  response: '709056216277500'
