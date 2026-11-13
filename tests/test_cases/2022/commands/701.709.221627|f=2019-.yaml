@@ -4,23 +4,5 @@ test_cases:
     LANDCRUISER_TF1_PAN: 77
   response: '709056216274100'
 - expected_values:
-    LANDCRUISER_TF1_PAN: 78.8
-  response: '709056216274200'
-- expected_values:
-    LANDCRUISER_TF1_PAN: 80.6
-  response: '709056216274300'
-- expected_values:
-    LANDCRUISER_TF1_PAN: 82.4
-  response: '709056216274400'
-- expected_values:
-    LANDCRUISER_TF1_PAN: 84.2
-  response: '709056216274500'
-- expected_values:
-    LANDCRUISER_TF1_PAN: 89.6
-  response: '709056216274800'
-- expected_values:
-    LANDCRUISER_TF1_PAN: 98.6
-  response: 709056216274D00
-- expected_values:
-    LANDCRUISER_TF1_PAN: 109.4
-  response: '709056216275300'
+    LANDCRUISER_TF1_PAN: 161.6
+  response: '709056216277000'

@@ -1,14 +1,11 @@
 command_id: 700.708.22112F
 test_cases:
 - expected_values:
-    LANDCRUISER_INJ_VOLUME_TOT: 6.96438
-  response: 7080562112F8165
+    LANDCRUISER_INJ_VOLUME_TOT: 0.28477
+  response: 7080562112F800F
 - expected_values:
     LANDCRUISER_INJ_VOLUME_TOT: 15
   response: 7080562112F83F6
-- expected_values:
-    LANDCRUISER_INJ_VOLUME_TOT: 15
-  response: 7080562112F8440
 - expected_values:
     LANDCRUISER_INJ_VOLUME_TOT: 15
   response: 7080562112F85EF

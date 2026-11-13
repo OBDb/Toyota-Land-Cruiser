@@ -1,8 +1,14 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    LANDCRUISER_EOP_700: 162.10938
-  response: 70805621074081B
+    LANDCRUISER_EOP_700: 123.98438
+  response: '708056210740633'
+- expected_values:
+    LANDCRUISER_EOP_700: 139.21875
+  response: 7080562107406F6
+- expected_values:
+    LANDCRUISER_EOP_700: 180.15625
+  response: '708056210740902'
 - expected_values:
     LANDCRUISER_EOP_700: 437.96875
   response: '7080562107415E6'
