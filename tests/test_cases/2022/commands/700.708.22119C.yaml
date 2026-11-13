@@ -1,0 +1,5 @@
+command_id: 700.708.22119C
+test_cases:
+- expected_values:
+    LANDCRUISER_INTERCOOLER_ECT: 22
+  response: 7080462119C3E

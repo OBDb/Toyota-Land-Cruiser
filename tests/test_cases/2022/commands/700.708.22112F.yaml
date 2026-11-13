@@ -1,0 +1,32 @@
+command_id: 700.708.22112F
+test_cases:
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 6.96438
+  response: 7080562112F8165
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 7.96046
+  response: 7080562112F8198
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 8.27295
+  response: 7080562112F81A8
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 8.29248
+  response: 7080562112F81A9
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 8.85888
+  response: 7080562112F81C6
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 9.03466
+  response: 7080562112F81CF
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 9.562
+  response: 7080562112F81EA
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 12.72602
+  response: 7080562112F828C
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 12.99945
+  response: 7080562112F829A
+- expected_values:
+    LANDCRUISER_INJ_VOLUME_TOT: 14.71818
+  response: 7080562112F82F2

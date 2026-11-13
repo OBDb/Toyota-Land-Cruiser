@@ -1,0 +1,29 @@
+command_id: 700.708.22109A
+test_cases:
+- expected_values:
+    LANDCRUISER_FFT: 21
+  response: 7080662109A3D75F0
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E7370
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E73B0
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E73C0
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E7400
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E7410
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E74B0
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E74F0
+- expected_values:
+    LANDCRUISER_FFT: 22
+  response: 7080662109A3E7520

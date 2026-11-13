@@ -1,0 +1,8 @@
+command_id: 700.708.221141
+test_cases:
+- expected_values:
+    LANDCRUISER_FUEL_RETURN_T: 23
+  response: 708046211413F
+- expected_values:
+    LANDCRUISER_FUEL_RETURN_T: 25
+  response: '7080462114141'
