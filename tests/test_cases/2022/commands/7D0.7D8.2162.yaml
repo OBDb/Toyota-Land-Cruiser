@@ -1,5 +1,14 @@
 command_id: 7D0.7D8.2162
 test_cases:
 - expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8056162091700
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8056162091E00
+- expected_values:
+    LANDCRUISER_PARKING_BRAKE_2: 0
+  response: 7D8056162093D00
+- expected_values:
     LANDCRUISER_PARKING_BRAKE_2: 1
   response: 7D80561621B0000

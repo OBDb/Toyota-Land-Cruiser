@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     LANDCRUISER_ATF_T_PAN_V3: 27.5
   response: '708056216274380'
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 30.625
+  response: 7080562162746A0
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 35
+  response: 708056216274B00
+- expected_values:
+    LANDCRUISER_ATF_T_PAN_V3: 40.625
+  response: 7080562162750A0

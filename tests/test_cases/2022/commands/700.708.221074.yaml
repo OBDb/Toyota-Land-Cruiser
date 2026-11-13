@@ -1,29 +1,8 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    LANDCRUISER_EOP_700: 205.15625
-  response: 708056210740A42
+    LANDCRUISER_EOP_700: 162.10938
+  response: 70805621074081B
 - expected_values:
-    LANDCRUISER_EOP_700: 206.09375
-  response: 708056210740A4E
-- expected_values:
-    LANDCRUISER_EOP_700: 207.26562
-  response: 708056210740A5D
-- expected_values:
-    LANDCRUISER_EOP_700: 210.9375
-  response: 708056210740A8C
-- expected_values:
-    LANDCRUISER_EOP_700: 213.67188
-  response: 708056210740AAF
-- expected_values:
-    LANDCRUISER_EOP_700: 222.57812
-  response: 708056210740B21
-- expected_values:
-    LANDCRUISER_EOP_700: 227.42188
-  response: 708056210740B5F
-- expected_values:
-    LANDCRUISER_EOP_700: 234.14062
-  response: 708056210740BB5
-- expected_values:
-    LANDCRUISER_EOP_700: 263.4375
-  response: 708056210740D2C
+    LANDCRUISER_EOP_700: 437.96875
+  response: '7080562107415E6'
