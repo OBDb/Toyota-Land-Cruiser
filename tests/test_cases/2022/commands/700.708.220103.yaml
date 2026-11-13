@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     LANDCRUISER_ENG_ODO: 97731
   response: 7080762010301017DC3
+- expected_values:
+    LANDCRUISER_ENG_ODO: 97737
+  response: 7080762010301017DC9
+- expected_values:
+    LANDCRUISER_ENG_ODO: 97739
+  response: 7080762010301017DCB
+- expected_values:
+    LANDCRUISER_ENG_ODO: 97740
+  response: 7080762010301017DCC
+- expected_values:
+    LANDCRUISER_ENG_ODO: 97741
+  response: 7080762010301017DCD

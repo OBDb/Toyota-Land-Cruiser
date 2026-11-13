@@ -1,11 +1,8 @@
 command_id: 700.708.22112C
 test_cases:
 - expected_values:
-    LANDCRUISER_INJ_VOLUME_TGT: 2.71481
-  response: 7080562112C008B
-- expected_values:
-    LANDCRUISER_INJ_VOLUME_TGT: 10.23424
-  response: 7080562112C020C
+    LANDCRUISER_INJ_VOLUME_TGT: 0
+  response: 7080562112C0000
 - expected_values:
     LANDCRUISER_INJ_VOLUME_TGT: 15
   response: 7080562112C06F0

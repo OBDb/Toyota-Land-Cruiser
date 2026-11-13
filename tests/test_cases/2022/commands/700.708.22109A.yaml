@@ -7,5 +7,5 @@ test_cases:
     LANDCRUISER_FFT: 22
   response: 7080662109A3E7400
 - expected_values:
-    LANDCRUISER_FFT: 34
-  response: 7080662109A4A58B0
+    LANDCRUISER_FFT: 38
+  response: 7080662109A4E5090

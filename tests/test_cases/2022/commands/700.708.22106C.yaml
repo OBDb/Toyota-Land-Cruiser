@@ -15,3 +15,15 @@ test_cases:
 - expected_values:
     LANDCRUISER_DIST_SINCE_BAT_DISC: 25867
   response: 7080562106C650B
+- expected_values:
+    LANDCRUISER_DIST_SINCE_BAT_DISC: 25873
+  response: 7080562106C6511
+- expected_values:
+    LANDCRUISER_DIST_SINCE_BAT_DISC: 25874
+  response: 7080562106C6512
+- expected_values:
+    LANDCRUISER_DIST_SINCE_BAT_DISC: 25875
+  response: 7080562106C6513
+- expected_values:
+    LANDCRUISER_DIST_SINCE_BAT_DISC: 25876
+  response: 7080562106C6514

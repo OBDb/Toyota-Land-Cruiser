@@ -7,6 +7,9 @@ test_cases:
     LANDCRUISER_IWP_SPEED: 33149
   response: 70805621075817D
 - expected_values:
+    LANDCRUISER_IWP_SPEED: 36181
+  response: 708056210758D55
+- expected_values:
     LANDCRUISER_IWP_SPEED: 36441
   response: '708056210758E59'
 - expected_values:
@@ -15,6 +18,15 @@ test_cases:
 - expected_values:
     LANDCRUISER_IWP_SPEED: 40275
   response: 708056210759D53
+- expected_values:
+    LANDCRUISER_IWP_SPEED: 40337
+  response: 708056210759D91
+- expected_values:
+    LANDCRUISER_IWP_SPEED: 40341
+  response: 708056210759D95
+- expected_values:
+    LANDCRUISER_IWP_SPEED: 40477
+  response: 708056210759E1D
 - expected_values:
     LANDCRUISER_IWP_SPEED: 40538
   response: 708056210759E5A

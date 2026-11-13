@@ -18,3 +18,12 @@ test_cases:
 - expected_values:
     LANDCRUISER_MASTER_CYL_TEMP: 47
   response: 7B8056210067F00
+- expected_values:
+    LANDCRUISER_MASTER_CYL_TEMP: 49
+  response: 7B8056210068100
+- expected_values:
+    LANDCRUISER_MASTER_CYL_TEMP: 50
+  response: 7B8056210068200
+- expected_values:
+    LANDCRUISER_MASTER_CYL_TEMP: 51
+  response: 7B8056210068300
