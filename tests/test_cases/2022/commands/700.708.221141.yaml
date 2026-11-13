@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_FUEL_RETURN_T: 25
   response: '7080462114141'
+- expected_values:
+    LANDCRUISER_FUEL_RETURN_T: 40
+  response: '7080462114150'

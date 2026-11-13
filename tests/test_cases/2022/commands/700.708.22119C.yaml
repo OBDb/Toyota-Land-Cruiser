@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     LANDCRUISER_INTERCOOLER_ECT: 22
   response: 7080462119C3E
+- expected_values:
+    LANDCRUISER_INTERCOOLER_ECT: 37
+  response: 7080462119C4D
+- expected_values:
+    LANDCRUISER_INTERCOOLER_ECT: 53
+  response: 7080462119C5D
+- expected_values:
+    LANDCRUISER_INTERCOOLER_ECT: 56
+  response: 7080462119C60

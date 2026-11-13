@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_PM_ACCUMULATION_RAT_1: 15
   response: 708046211052B
+- expected_values:
+    LANDCRUISER_PM_ACCUMULATION_RAT_1: 15
+  response: 708046211052C

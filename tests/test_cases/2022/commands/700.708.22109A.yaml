@@ -5,25 +5,10 @@ test_cases:
   response: 7080662109A3D75F0
 - expected_values:
     LANDCRUISER_FFT: 22
-  response: 7080662109A3E7370
-- expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E73B0
-- expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E73C0
-- expected_values:
-    LANDCRUISER_FFT: 22
   response: 7080662109A3E7400
 - expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E7410
+    LANDCRUISER_FFT: 25
+  response: 7080662109A416BF0
 - expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E74B0
-- expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E74F0
-- expected_values:
-    LANDCRUISER_FFT: 22
-  response: 7080662109A3E7520
+    LANDCRUISER_FFT: 26
+  response: 7080662109A426B50

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LANDCRUISER_IWP_SPEED: 32973
   response: 7080562107580CD
+- expected_values:
+    LANDCRUISER_IWP_SPEED: 33149
+  response: 70805621075817D
+- expected_values:
+    LANDCRUISER_IWP_SPEED: 36441
+  response: '708056210758E59'
