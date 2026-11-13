@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     LANDCRUISER_STEERING_ANGLE: -18
   response: 7BB06621004FFF404
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -7.5
+  response: 7BB06621004FFFB06
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -6
+  response: 7BB06621004FFFCF9
+- expected_values:
+    LANDCRUISER_STEERING_ANGLE: -4.5
+  response: 7BB06621004FFFDFD

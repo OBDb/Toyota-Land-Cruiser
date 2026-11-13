@@ -7,5 +7,8 @@ test_cases:
     LANDCRUISER_GEAR_700: 4
   response: '7080462162104'
 - expected_values:
+    LANDCRUISER_GEAR_700: 5
+  response: '7080462162105'
+- expected_values:
     LANDCRUISER_GEAR_700: 6
   response: '7080462162106'
