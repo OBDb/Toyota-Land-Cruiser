@@ -1,0 +1,8 @@
+command_id: 700.708.2211AF
+test_cases:
+- expected_values:
+    LANDCRUISER_2ND_TRUBOCHARGER_OUTLET_P: 100.33
+  response: 708056211AF2731
+- expected_values:
+    LANDCRUISER_2ND_TRUBOCHARGER_OUTLET_P: 100.42
+  response: 708056211AF273A
