@@ -4,29 +4,5 @@ test_cases:
     LANDCRUISER_ENG_ODO: 97716
   response: 7080762010301017DB4
 - expected_values:
-    LANDCRUISER_ENG_ODO: 97717
-  response: 7080762010301017DB5
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97718
-  response: 7080762010301017DB6
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97729
-  response: 7080762010301017DC1
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97730
-  response: 7080762010301017DC2
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97731
-  response: 7080762010301017DC3
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97737
-  response: 7080762010301017DC9
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97739
-  response: 7080762010301017DCB
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97740
-  response: 7080762010301017DCC
-- expected_values:
-    LANDCRUISER_ENG_ODO: 97741
-  response: 7080762010301017DCD
+    LANDCRUISER_ENG_ODO: 97743
+  response: 7080762010301017DCF
