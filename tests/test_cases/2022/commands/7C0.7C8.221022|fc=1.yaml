@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221022|fc=1
 test_cases:
 - expected_values:
-    LANDCRUISER_FLV: 42.23
-  response: 7C805621022107F
+    LANDCRUISER_FLV: 33.89
+  response: 7C8056210220D3D
 - expected_values:
     LANDCRUISER_FLV: 51.07
   response: 7C80562102213F3
@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     LANDCRUISER_FLV: 64.16
   response: 7C8056210221910
+- expected_values:
+    LANDCRUISER_FLV: null
+  response: 7C805621022FFFF
