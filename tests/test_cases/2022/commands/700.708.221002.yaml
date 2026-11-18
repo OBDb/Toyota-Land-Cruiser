@@ -1,8 +1,8 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    LANDCRUISER_12V_V: 12.89059
-  response: '708056210022940'
+    LANDCRUISER_12V_V: 12.86618
+  response: 70805621002292C
 - expected_values:
     LANDCRUISER_12V_V: 13.12008
   response: 7080562100229FC
