@@ -17,7 +17,7 @@
   "signals": [
     {"id": "LANDCRUISER_12V_V", "path": "Battery", "fmt": { "len": 16, "max": 79, "mul": 12.207, "div": 10000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "LANDCRUISER_INJ_VOL", "path": "Engine", "fmt": { "len": 16, "max": 20, "div": 3200, "unit": "liters" }, "name": "Injection volume"}
   ]},
