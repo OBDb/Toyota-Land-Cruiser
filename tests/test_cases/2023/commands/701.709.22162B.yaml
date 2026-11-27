@@ -2,4 +2,7 @@ command_id: 701.709.22162B
 test_cases:
 - expected_values:
     LANDCRUISER_ATF_THERMAL_DEGRAD_EST: 805
+  response: '709 05 62 16 2B 03 25 '
+- expected_values:
+    LANDCRUISER_ATF_THERMAL_DEGRAD_EST: 805
   response: 7090562162B0325
