@@ -1,0 +1,7 @@
+command_id: 700.708.2215F6
+test_cases:
+- expected_values:
+    LANDCRUISER_INITIAL_ENG_BAT_V_LO: 8.5
+  response: |-
+    70810096215F6000055
+    7082100005200000000
