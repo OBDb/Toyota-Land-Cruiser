@@ -1,0 +1,5 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    LANDCRUISER_EOP_700: 175.23438
+  response: 7080562107408C3
